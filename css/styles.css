@@ -9,6 +9,10 @@ h1{
   margin-bottom: 70px;
 }
 
+.main-div{
+  padding-top: 100px;
+}
+
 .btn{
   width: 200px;
   height: 200px;
@@ -46,4 +50,17 @@ h1{
 
 .game-over{
   background-color: red;
+}
+.game{
+  font-size: 170px;
+  font-family: 'Press Start 2P', cursive;
+  color: #febf63;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  padding-left: 250px;
+}
+.hidden{
+  visibility: hidden;
 }
